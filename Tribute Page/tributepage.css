@@ -1,41 +1,51 @@
-      p {
-	  font-size: 16px;
-      }
+/*
+:root{
+    --variableForFuturUse: ;
+}
+*/
+p {
+    font-size: 16px;
+}
 
-      h1, h2, h3 {
-	  font-family: 'Dancing Script', cursive;
-      }
+h1, h2, h3 {
+    font-family: 'Dancing Script', cursive;
+}
 
-      body {
-	  background: linear-gradient(90deg, white,#8e8e8e);
-      }
+body {
+    background: linear-gradient(90deg, white,#8e8e8e);
+}
 
-      image {
+image {
 
-	  max-width: 100%;
-	  display: block;
-	  height: auto;
-      }
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
 
-      nav {
-	  position: absolute;
-	  left: 20%;
-      }
-      a {
-	  color: black;
-      }
-      a:hover {
-	  animation-name: hoverit;
-	  animation-duration: 500ms;
+nav {
+    position: absolute;
+    left: 20%;
+}
+a {
+    color: black;
+}
+a:hover {
+    animation-name: hoverit;
+    animation-duration: 500ms;
 
-	  color: #8e8e8e;
-      }
+    color: #8e8e8e;
+}
 
-      @keyframes hoverit {
-	  100%{
-	      width: 40px;
-	  }
-      }
+@keyframes hoverit {
+    100%{
+	width: 40px;
+    }
+}
+/*
+a:visited {
+    color: #6f5f3F;
+}
+#bio {
 
-      #bio {
-      }
+}
+*/
