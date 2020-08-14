@@ -1,0 +1,81 @@
+/* Welcome to My Portfolio.css  */
+:root {
+    /* c'est une pseudo classe pour contenir des des variables récurents*/
+    --couleur-sympa: #ffcccf;
+    --font-sympa:'Dancing Script', cursive;
+}
+
+
+header {
+
+}
+
+body {
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--couleur-sympa);
+    font-family: var(--font-sympa);
+    /* margin: 10px auto 10px auto; */
+    width: 100%;
+    padding: 0px;
+}
+
+#navbar{
+    display: absolute;
+    width: 100%;
+    position: fixed;
+    top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0.5;
+    background: rgb(131 137 46);
+}
+
+/* nav div {
+    border-width: 10px;
+    border-style: groove;
+} */
+
+nav div  {
+
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background: gray;
+}
+
+nav div:hover {
+    background: var(--couleur-sympa);
+}
+
+body {
+    background: rgb(61 176 293)
+}
+
+a {
+    color: rgb(0 255 255);
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin: 10em auto;
+    font-family: var(--font-sympa);
+    font-size: 3em;
+}
+
+@media screen and (max-width = 350px){
+    html {
+	font-size: 20%;
+    }
+}
+@media screen and (max-width = 725px){
+    html {
+	font-size: 50%;
+    }
+}

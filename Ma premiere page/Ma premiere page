@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
+<html>
+  <style>
+    :root{
+	--rouge-pourpre: hsl(-20deg, 70%, 70%);
+    }
+
+    body {
+	background: linear-gradient(53deg, #ccfffc, #ffcccf);
+    }
+    .title {
+	opacity: 0.5;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Dancing Script', cursive;
+	background: var(--rouge-pourpre);
+	border-style: groove ;
+	text-align: center;
+	font-size: 38px;
+	color: hsl(160deg, 100%, 75%);
+	width:350px;
+    }
+    .star-wars-photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+    }
+    .introduction {
+	background:hsl(210deg, 100%, 80%);
+	text-align: justify;
+	font-size: 15px;
+	line-height: 17px;
+
+    }
+    .dodger-blue-text {
+	color: #1E90FF;
+    }
+
+    .formulaire {
+	border-radius: 5px;
+    }
+    a {
+
+	color: hsl(-20deg, 100%, 50%);
+
+    }
+    a:hover {
+	background: hsl(160, 100%, 50%);
+    }
+
+    button:hover {
+	transform:scale(1.1);
+	background:#aaeeaa;
+	color: #00F;
+    }
+
+  </style>
+  <body>	
+    <header>
+      <title class="title">Carrick-Station</title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width">
+      <h1 class="title">Carrick-Station</h1><hr>
+      <img class="star-wars-photo" src="https://vignette.wikia.nocookie.net/starwars/images/6/61/ZayneCarrick-KotOR1.jpg/revision/latest?cb=20150802062714" alt="Photo-de-star-wars">
+      summary
+    </header><hr>
+    <main>
+      <section class="introduction"><div><p><em>Je suis <strong>BENSEGHIR Seddik Hocine </strong> et vous souhaite la bienvenu à la <strong style="font-family: 'Dancing Script';font-size:24px;color:hsl(-35deg, 100%, 50%)">Carrick-Station</strong> la page d'un Grand Fan de <strong>Star Wars.</Strong></em>
+	  </p><hr></div></section>
+      <div><p>My Favorit Characters :</p> 
+	<ul><li>CARRICK Zayne.</li><li>Qui-Gon Jin.</li><li>Yoda.</li></ul><hr> </div> 
+      <div>
+	<p>l'histoire qui m'a le plus touché dans l'univers Etendu Légende est la tragédie d'Ulic Qel-Droma qui a tué son propre frère par excès de colère et animé par la rage du Côté Obscure de la Force, l'histoire qui m'a le plus marqué est celle d'un jeune padawan novice Carrick Zayne qui a su préserver ses principes malgrès de très rudes épreuves.</p></div><hr>
+
+      <!-- Formulaire pour les fans de Star Wars -->
+
+      <div class="formulaire">
+	<p> Vous aussi vous êtes un grand fan de <strong>Star Wars</strong> partagez avec moi votre Histoire et ce qui vous passione dans cet univers.</p>
+	<form href:"\quelque-part-où-je-vais-créer-un-serveur\">
+	  <label for="name">Nom :</label>
+	  <input id="name" class="formulaire" type="text" placeholder="Nom" required><br>
+	  <label for="prénom">Prénom :</label>
+	  <input id="prénom" class="formulaire" type="text" placeholder="Prénom" required><br>
+	  <label for"email">E-mail :</label>
+	  <input id="email"class="formulaire" type="text" placeholder="E-mail" required><br><br>
+	  <label for="form-text">Your experience of Star wars :</label><br/>
+	  <textarea id="form-text" name="form-text" rows="4" cols="40" placeholder="Your experience of Star wars...">
+	  </textarea><br>
+	  <button type="submit" style="margin-right: 158px;">Envoyer</button>
+	</form>
+      </div>
+    </main>
+<footer>&copy; 2020 Carrick-Station
+
+</footer>
+</body>
+</html>
